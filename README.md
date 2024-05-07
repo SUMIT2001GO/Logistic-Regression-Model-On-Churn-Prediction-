@@ -2,7 +2,7 @@
 ## Dataset
 - The dataset contains 25,000 rows and 11 columns.
 - Each row represents a customer, and the columns represent various features such as customer demographics, usage patterns, and transaction history.
-- The target variable is labeled 'churn' and indicates whether a customer has churned (1) or not (0).
+- The target variable is labeled 'target' and indicates whether a customer has churned (1) or not (0).
 
 ## Data Preprocessing
 - Missing Values: Handled using mean imputation.
@@ -24,7 +24,7 @@
 - Insights: Feature X was found to be the most important predictor of churn.
 
 ## Future Work
-- Experiment with different machine learning algorithms (e.g., Random Forest, Gradient Boosting).
+- Experiment with different machine learning algorithms (e.g., Random Forest, Decision Tree).
 - Fine-tune hyperparameters to improve model performance.
 - Explore additional features or data sources to enhance predictive power.
 
